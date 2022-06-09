@@ -116,7 +116,7 @@ def menu():
     def main(arg):
         user = arg
         try:
-            os.mkdir('Piyash)
+            os.mkdir('Piyash')
         except OSError:
             pass
 
