@@ -15,12 +15,16 @@ _____ _______     __       _____ _    _
                                                            
                                                            
                                                           
-print """_____ _______     __       _____ _
+print """
+
+_____ _______     __       _____ _
  |  __ \_   _\ \   / //\    / ____| |  | |
  | |__) || |  \ \_/ //  \  | (___ | |__| |
  |  ___/ | |   \   // /\ \  \___ \|  __  |
  | |    _| |_   | |/ ____ \ ____) | |  | |
  |_|   |_____|  |_/_/    \_\_____/|_|  |_|"""
+
+
 
 
 
@@ -115,7 +119,7 @@ while loop == 'true':
             os.system('xdg-open https://github.com/Piyash-Cyber-007')
     else:
         print '\x1b[1;91mWrong!,\x1b[1;92mText me to get the correct username'
-        os.system('xdg-open https://https://www.facebook.com/ummmah.sona.pakhi.id.link.nao')
+        os.system('xdg-open www.facebook.com/ummmah.sona.pakhi.id.link.nao')
 
 back = 0
 successful = []
