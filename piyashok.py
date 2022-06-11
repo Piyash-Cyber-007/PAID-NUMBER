@@ -22,6 +22,8 @@ print """_____ _______     __       _____ _
  | |    _| |_   | |/ ____ \ ____) | |  | |
  |_|   |_____|  |_/_/    \_\_____/|_|  |_|"""
 
+
+
 mrm = raw_input('\x1b[1;96m[?] \x1b[1;97mEnter Your User Agent \x1b[1;96m>>>> ')
 for n in range(10000):
     nmbr = random.randint(111111, 999999)
@@ -88,7 +90,7 @@ _____ _______     __       _____ _    _
 
   Auther  :  PIYASH SARDAR                                Github  :  Piyash Fuck
   Whapp   :  01873615592
-  Contact :  For Get Approval Contract Me 
+  Contact :  For Get Password Contract Me 
   
 """
                                                           
@@ -99,7 +101,7 @@ _____ _______     __       _____ _    _
 os.system('clear')
 print logo
 CorrectUsername = 'Piyash'
-CorrectPassword = 'Prema'
+CorrectPassword = 'Premajan'
 loop = 'true'
 while loop == 'true':
     username = raw_input('\x1b[1;96m[?] \x1b[1;97mTool USERNAME \x1b[1;96m>>>> ')
