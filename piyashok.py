@@ -3,7 +3,7 @@
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
 os.system('clear')
-(logo1) ="'
+(logo1) ="
 $$$$$$$\ $$$$$$\ $$\     $$\  $$$$$$\   $$$$$$\  $$\   $$\ 
 $$  __$$\\_$$  _|\$$\   $$  |$$  __$$\ $$  __$$\ $$ |  $$ |
 $$ |  $$ | $$ |   \$$\ $$  / $$ /  $$ |$$ /  \__|$$ |  $$ |
